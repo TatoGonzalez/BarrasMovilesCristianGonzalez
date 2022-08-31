@@ -1,0 +1,21 @@
+{
+  "name": "desafio-sass",
+  "version": "1.0.0",
+  "description": "barrasmoviles-sass",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "node-sass --include-path scss styles/scss/stylescss.scss styles/css/stylecss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "barrasmoviles"
+  ],
+  "author": "Cristian Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
