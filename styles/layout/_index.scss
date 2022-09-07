@@ -19,3 +19,13 @@ a {
     color:firebrick;
 }
 }
+
+.footer {
+    @extend .navbar;
+    div {
+        h6 {
+            font-size: 16px;
+            font-style:oblique;
+        }
+    }
+}
